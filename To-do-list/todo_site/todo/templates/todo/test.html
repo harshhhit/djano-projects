@@ -1,0 +1,20 @@
+{% comment %} What does {% extends %} do?
+
+In Django, {% extends %} is used in template inheritance. It allows one template to inherit from another template. This way, you can create a base layout (a template) 
+that other templates will use, which helps you avoid repeating the same code in multiple places. {% endcomment %}
+
+{% comment %} {% extends 'index.html' %}
+
+{% block content %}
+
+
+What does {% extends %} do?
+
+In Django, {% extends %} is used in template inheritance. 
+It allows one template to inherit from another template. This way, you can create a base layout (a template) that other templates will use, which helps you avoid repeating the same code in multiple places.
+
+How does it work?
+
+When you use {% extends %}, you're telling Django that the current template should use the structure of another 
+template (usually called the base template). This base template might include things like the page header, footer, and navigation bar. 
+Then, specific sections of the page can be customized in child templates. {% endcomment %}
